@@ -1,6 +1,5 @@
-
 # Floom package information:
-__version__ = '1.0.2'
+__version__ = '1.0.3'
 __author__ = 'FloomAI'
 
 # It can also include convenience imports if you want to provide a simplified API:

@@ -4,7 +4,7 @@ import asyncio
 
 async def main():
     floom_client = FloomClient(
-        endpoint="http://localhost:4050",
+        url="http://localhost:4050",
         api_key="api_key_here"
     )
 

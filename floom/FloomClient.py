@@ -8,8 +8,8 @@ from floom.FloomRequest import DataTransferType, FloomRequest
 
 
 class FloomClient:
-    def __init__(self, endpoint: str, api_key: str):
-        self._url = endpoint
+    def __init__(self, url: str, api_key: str):
+        self._url = url.rstrip('/')  # Remove trailing slash if it exists
         self._api_key = api_key
 
     def run(self, pipelineId: str, chatId: str = "", prompt: str = "", variables: dict = None,
