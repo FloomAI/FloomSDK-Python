@@ -1,0 +1,9 @@
+# Default ignored files
+build/*
+dist/*
+/Floom.egg-info/*
+/shelf/
+/workspace.xml
+.idea/*
+floom/__pycache__/*
+/__pypi_api_token
