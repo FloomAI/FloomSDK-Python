@@ -1,0 +1,14 @@
+kind: 'floom/pipeline/1.2'
+
+pipeline:
+  name: floom-simple-pipeline
+
+  model:
+    - package: floom/model/connector/openai
+      model: gpt-3.5-turbo
+      apiKey: sk-ABC123
+
+  response:
+    format:
+     - package: floom/response/formatter
+       type: text

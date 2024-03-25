@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='Floom',  # Floom Python SDK
-    version='1.0.3',
+    version='1.0.5',
     packages=find_packages(exclude=['examples*']),  # Excluding examples directories
     install_requires=requirements,
     include_package_data=True,
